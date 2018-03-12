@@ -17,7 +17,7 @@ Sub ExcelMacroExample()
   Set xlBook = xlApp.Workbooks.Open(strPath & "\tool\vba\Main.xls", 0, False) 
   xlApp.Run "Clear"
   xlApp.Run "ParseContentTxt"
-  'xlApp.Run "Main"
+  xlApp.Run "Main"
 
   'xlBook.Close False
   'xlApp.Quit
